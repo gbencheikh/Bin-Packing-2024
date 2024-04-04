@@ -119,24 +119,12 @@ conda activate environment.yml
 
 The library can be used from another project, by importing the necessary sources from `src/` or it can be used as a standalone bin packing library, by leveraging the interface functions in `src/main.py`.
 
-If you want to see a working example, please check out the `bpp.ipynb` Jupyter notebook, that contains an explanation of the dataset in use, along with a comparison of all the implemented solutions.
+If you want to see a working example, please check out the `bpp.ipynb` notebook, that contains an explanation of the dataset in use, along with a comparison of all the implemented solutions.
 
 For a more entertaining and interactive solution, you can also run the implemented [Streamlit](https://streamlit.io/) dashboard, by simply running the following command from the root of the project:
 ```bash
 python3 -m streamlit run src/dashboard.py
 ```
-
-## Slides
-
-To start the slide show:
-
-1. Change directory to `slides/`
-1. Run `npm install` and `npm run dev`
-2. Visit http://localhost:3030
-
-Edit the [slides.md](./slides/slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
 
 ## References
 - <a id="1">[1]</a>
